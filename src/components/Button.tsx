@@ -62,13 +62,13 @@ const variantClasses: Record<ButtonVariant, string> = {
   gradient:
     // `bg-gradient-to-r` + `from-*`/`to-*` is Tailwind's gradient
     // syntax: a linear gradient going left-to-right between two colors.
-    "bg-gradient-to-r from-emerald-500 to-green-600 text-white " +
+    "bg-gradient-to-r from-orange-400 to-orange-600 text-white " +
     // On hover we swap in slightly darker stops for the same gradient —
     // this changes a CSS custom property under the hood, not
     // `background-color`, which is why it won't smoothly fade under
     // `transition-colors` (only `transition` / `transition-all` catches it).
-    "hover:from-emerald-600 hover:to-green-700 " +
-    "focus-visible:ring-2 focus-visible:ring-emerald-400 " +
+    "hover:from-orange-500 hover:to-orange-700 " +
+    "focus-visible:ring-2 focus-visible:ring-orange-400 " +
     "disabled:opacity-50 disabled:pointer-events-none",
 };
 
